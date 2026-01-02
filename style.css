@@ -1,0 +1,37 @@
+/* styles.css */
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Center container */
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 40px 60px;
+    border-radius: 16px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Heading style */
+h1 {
+    font-size: 2.4em;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+/* Optional subtitle */
+p {
+    font-size: 1.1em;
+    opacity: 0.9;
+}
